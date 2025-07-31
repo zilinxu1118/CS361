@@ -1,0 +1,36 @@
+script1
+
+For my user story 1, “As a user, I want to add a new package with its tracking ID and initial status, so that I can begin tracking”: Given a user is in the add new package window, when they enter the package ID, recipient name, address, and the initial status, the package will be added.
+
+For my user story 2, “As a user, I want to view a list of all packages, so that I can easily see their status in one place ”: Given a user is in the view all packages window, they can see a list of all the packages in the system, and they can also filter them by status.
+
+For my user story 3, “As a user, I want to search a package with its ID, so that I can find its information”: Given a user is in the search package by ID window, when they enter the package ID, the system will show the package's name, address, and status
+
+For my user story 4, “As a user, I want to update the status of a package manually, so that I can reflect real-world changes in the system": Given a user is in the update package status window, when they select the package by its ID, the system will show its current status, and the user can select the new status from the drop-down list.
+
+For my user story 5, “As a user, I want to delete a package from tracking, so that I can clean up my list": Given a user is in the delete package window, when they select the package by its ID in the drop-down list, the system will allow the user to confirm if to delete or not.
+
+For IH#1: A short explanation of what this application is used for, and a concise list of the things this application can do on the home screen. The description says why people would want to use the feature.
+
+For IH#2: Here, when a user attempts to delete a package, the system will warn the user that this action cannot be undone
+
+For IH#3: The home page is very concise without unnecessary information and the other pages as well, which will not confuse the users
+
+For IH#4: The features and options of this application is unlikely to change, and all the available features are on the main menu thus making it familiar for the users to use
+
+For IH#5: As I’m demonstrating, when a user attempts to delete a package, the system will allow the user to confirm the action
+
+For IH#6: Here and here, the system has buttons like "submit", "cancel", "search" etc to guide the user.
+
+For IH#7: This application is straightforward, so there are no other approaches to each of the options
+
+For IH#8: As I’m demo’ing, when a user attempts to delete a package, the system will allow the user to confirm the action, so the user can think again
+
+For my “usability” quality attribute: The non-functional requirement is: “Each Inclusivity Heuristic is reflected.” I already showed that.
+
+For my “maintainability” quality attribute: The non-functional requirement is: “Each feature has its own function and the code is clearly commented to allow easy maintenance and debugging”. These are my functions, they’re all 
+separated.
+
+For my “reliability” quality attribute: All the features are reliable, and there are no error as clearly shown throughout this demonstration.
+
+Here is my GitHub release for Milestone #1.
