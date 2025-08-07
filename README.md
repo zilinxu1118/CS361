@@ -26,6 +26,7 @@ title	          string	            Title of the movie
 duration	         int	            Watch time in minutes
 
 ✅ Example Request (Python)
+```python
 import requests
 
 response = requests.post(
@@ -35,7 +36,7 @@ response = requests.post(
         "duration": 100
     }
 )
-
+```
 📥 How to RECEIVE Data
 You will receive a JSON object with the following structure:
 
@@ -45,12 +46,12 @@ watch_time	      string	              Watch time (e.g., "100 minutes")
 description	      string	              Description of the movie
 
 ✅ Example Response (Python)
-
+```python
 data = response.json()
 print(data["title"])        # "Finding Nemo"
 print(data["watch_time"])   # "100 minutes"
 print(data["description"])  # "'Finding Nemo' is an entertaining movie that runs for 100 minutes."
-
+```
 UML Diagram
 <img width="877" height="254" alt="image" src="https://github.com/user-attachments/assets/fea27025-f6a6-46d3-9c43-eefc4105cad7" />
 
